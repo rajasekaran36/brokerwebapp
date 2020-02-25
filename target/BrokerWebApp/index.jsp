@@ -2,7 +2,7 @@
 
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Broker Web App</h2>
 <%
 TradeDaoImpl t = new TradeDaoImpl();
 t.loadTradeInfoFromFile("src/main/resources/tradefile-2.csv");

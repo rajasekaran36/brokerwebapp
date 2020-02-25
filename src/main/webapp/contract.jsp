@@ -162,10 +162,9 @@
                     Info #
                 </td>
             </tr>
-
             <tr class="details">
                 <td>
-                    Any Company 
+                    <%=b.getScrip()%> 
                 </td>
 
                 <td>
@@ -176,12 +175,10 @@
                 <td>
                     Trade Type
                 </td>
-                
                 <td>
-                    <%=b.getTradeType()%>
+                    <%=b.getTradeType().equals("S")?"SELL":"BUY"%>
                 </td>
             </tr>
-
             <tr class="details">
                 <td>
                     Total Quantity
@@ -191,7 +188,6 @@
                     <%=b.getQuantity()%>
                 </td>
             </tr>
-
             <tr class="details">
                 <td>
                     Rate Per Quantity
@@ -201,26 +197,6 @@
                     <%=b.getPrice()%>
                 </td>
             </tr>
-            <tr class="heading">
-                <td>
-                    Payment Method
-                </td>
-                
-                <td>
-                    Check #
-                </td>
-            </tr>
-            
-            <tr class="details">
-                <td>
-                    Check
-                </td>
-                
-                <td>
-                    1000
-                </td>
-            </tr>
-            
             <tr class="heading">
                 <td>
                     Break Up
